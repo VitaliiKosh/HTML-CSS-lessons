@@ -44,8 +44,12 @@ html {
   display: flex;
 }
 
-.nav-list {
+ul {
   line-height: 1.75em;
+}
+
+.nav-list {
+  /*  line-height: 1.75em;*/
   padding: 0;
   list-style-type: none;
 }
