@@ -77,9 +77,6 @@ ul {
   color: white;
   line-height: 2em;
   margin-bottom: 0.5em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 a {
@@ -88,4 +85,7 @@ a {
   padding-left: 0.5em;
   display: block;
   height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
