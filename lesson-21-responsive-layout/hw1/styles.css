@@ -8,6 +8,13 @@ html {
   font-size: 16px;
 }
 
+body {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -21,7 +28,7 @@ html {
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
-  margin-top: 100vh;
+  margin-top: auto;
 }
 
 .navigation {
