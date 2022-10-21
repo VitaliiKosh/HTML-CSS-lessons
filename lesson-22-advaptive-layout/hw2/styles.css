@@ -132,5 +132,6 @@ img {
   .news {
     padding: 0.5em;
     width: 20%;
+    flex: auto;
   }
 }
