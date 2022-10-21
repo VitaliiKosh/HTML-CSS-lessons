@@ -8,11 +8,57 @@ html {
 }
 
 header {
+  display: flex;
   height: 3em;
   padding: 0 1em 0 1em;
   background-color: #eee;
 }
 
+.custom-button {
+  align-items: center;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: none;
+  cursor: pointer;
+  font-size: 2em;
+}
+
 .nav-list {
   padding: 0;
+  list-style-type: none;
+  visibility: hidden;
+}
+
+.navigation {
+  width: 20vw;
+  padding: 0.5em;
+}
+
+.nav-list-item {
+  background-color: #808080;
+  color: white;
+  height: 2em;
+  margin: 0.5em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 600px) {
+  .custom-button {
+    visibility: hidden;
+  }
+
+  .nav-list {
+    visibility: inherit;
+  }
 }
