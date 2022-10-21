@@ -108,22 +108,28 @@ img {
 }
 
 @media (min-width: 600px) and (max-width: 1199) {
-  .main {
+  /*  .main {
     display: flex;
-  }
+  }*/
 
   .navigation {
+    display: flex;
+    flex-direction: row;
     padding: 0.5em;
     width: 10%;
   }
 
   .section {
+    display: flex;
+    flex-direction: row;
     font-size: 1.25em;
     padding: 0.5em;
     width: 80%;
   }
 
   .news {
+    display: flex;
+    flex-direction: column;
     padding: 0.5em;
     width: 10%;
   }
