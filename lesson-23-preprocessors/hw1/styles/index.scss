@@ -34,7 +34,6 @@ html {
 
 .submenu {
   position: absolute;
-  margin: 0 0 0 3em;
   top: 100%;
   display: none;
   list-style-type: none;
@@ -44,6 +43,14 @@ html {
   color: #fff;
   min-width: 120px;
   z-index: 1;
+}
+
+.submenu__item {
+  padding: 0 8px 0 8px;
+  display: flex;
+  text-align: center;
+  height: 3em;
+  line-height: 3em;
 }
 
 .submenu__item:hover {
@@ -58,18 +65,3 @@ html {
 .menu__item_active {
   color: yellow;
 }
-
-/*.menu,
-.submenu {
-  margin: 0 0 0 3em;
-}*/
-
-/*.menu__item {
-  padding: 0 8px 0 8px;
-  height: 3em;
-}*/
-
-/*.submenu__item {
-  padding: 0 8px 0 8px;
-  height: 3em;
-}*/
