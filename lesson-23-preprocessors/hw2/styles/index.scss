@@ -1,10 +1,5 @@
-/*
-@mixin for-small-up {
-  @media screen and (max-width: $sm-1) {
-    @content;
-  }
-}
-*/
+@import "layout.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -39,25 +34,28 @@ span {
 /*@include for-small-up {
     background-color: #8a2be2;
   }*/
-@media screen and (min-width: 600px) {
+
+@include for-medium-up {
   .products {
     display: flex;
   }
+
   .products-list,
-.navigation {
-    flex: 1;
-  }
-}
-@media screen and (min-width: 900px) {
-  .container {
-    display: flex;
-  }
-  .products {
-    flex: 2;
-  }
-  .news {
+  .navigation {
     flex: 1;
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+@include for-large-up {
+  .container {
+    display: flex;
+  }
+
+  .products {
+    flex: 2;
+  }
+
+  .news {
+    flex: 1;
+  }
+}
